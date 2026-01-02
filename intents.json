@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello! How can I help you?", "Hi there!"]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["courses offered", "available courses", "departments"],
+      "responses": ["We offer CSE, AI & DS, ECE, EEE, Mechanical, and Civil Engineering."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fees", "fee structure", "tuition fees"],
+      "responses": ["The fee structure varies by department. Please visit the official website."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["hostel", "hostel facility"],
+      "responses": ["Yes, hostel facilities are available for both boys and girls."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "phone number", "email"],
+      "responses": ["You can contact us at: info@college.edu"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "exit", "quit"],
+      "responses": ["Goodbye! Have a great day 😊"]
+    }
+  ]
+}
